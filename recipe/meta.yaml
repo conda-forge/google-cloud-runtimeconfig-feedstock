@@ -1,6 +1,6 @@
 {% set name = "google-cloud-runtimeconfig" %}
-{% set version = "0.30.0" %}
-{% set sha256 = "02075724535b3d6e1d9a6df8a2340190e195faea2f9e91f48d6ae9006993d636" %}
+{% set version = "0.32.0" %}
+{% set sha256 = "3d125c01817d5bef2b644095b044d22b03b9d8d4591088cadd8e97851f7a150a" %}
 
 package:
   name: {{ name|lower }}
@@ -33,12 +33,8 @@ about:
   license: Apache-2.0
   license_family: Apache
   license_file: LICENSE
-  summary: 'Google Cloud RuntimeConfig API client library'
-  description: The Google Cloud RuntimeConfig API enables developers to dynamically configure and expose
-    variables through Google Cloud Platform. In addition, you can also set Watchers and Waiters that will
-    watch for changes to your data and return based on certain conditions.
-
-    See the [quick start guide](https://googleapis.dev/python/runtimeconfig/latest/index.html#quick-start).
+  summary: Google Cloud RuntimeConfig API client library
+  description: "The Google Cloud RuntimeConfig API enables developers to dynamically configure and expose variables through Google Cloud Platform. In addition, you can also set Watchers and Waiters that will watch for changes to your data and return based on certain conditions.\nSee the [quick start guide](https://googleapis.dev/python/runtimeconfig/latest/index.html#quick-start)."
 
   doc_url: https://googleapis.dev/python/runtimeconfig/latest/index.html
   dev_url: https://github.com/googleapis/python-runtimeconfig
