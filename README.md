@@ -5,9 +5,13 @@ Home: https://github.com/googleapis/python-runtimeconfig
 
 Package license: Apache-2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-cloud-runtimeconfig-feedstock/blob/master/LICENSE.txt)
 
 Summary: Google Cloud RuntimeConfig API client library
+
+Development: https://github.com/googleapis/python-runtimeconfig
+
+Documentation: https://googleapis.dev/python/runtimeconfig/latest/index.html
 
 The Google Cloud RuntimeConfig API enables developers to dynamically configure and expose variables through Google Cloud Platform. In addition, you can also set Watchers and Waiters that will watch for changes to your data and return based on certain conditions.
 See the [quick start guide](https://googleapis.dev/python/runtimeconfig/latest/index.html#quick-start).
