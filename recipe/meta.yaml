@@ -1,6 +1,6 @@
 {% set name = "google-cloud-runtimeconfig" %}
-{% set version = "0.31.0" %}
-{% set sha256 = "3e0218abc438f2f43605db27189fa7a48c3ca3defc45054dac01835527058a4c" %}
+{% set version = "0.32.2" %}
+{% set sha256 = "5285aef98fdb9a691e7c54789e7c493c51674b6e77fe6c967172ae8eadbba026" %}
 
 package:
   name: {{ name|lower }}
