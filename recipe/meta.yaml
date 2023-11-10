@@ -1,5 +1,5 @@
 {% set name = "google-cloud-runtimeconfig" %}
-{% set version = "0.33.2" %}
+{% set version = "0.33.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/google-cloud-runtimeconfig-{{ version }}.tar.gz
-  sha256: 30f9b2be6d854ab5336f5cb98b8c65e42a9e6bab318b12e867b575871362ee1c
+  sha256: e2cbf9c2e6b4de02ddf58ab0743f0ffd568abf82dc69c078d9f2b985402ddaf4
 
 build:
   number: 0
