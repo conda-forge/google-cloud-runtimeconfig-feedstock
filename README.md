@@ -1,11 +1,11 @@
-About google-cloud-runtimeconfig
-================================
+About google-cloud-runtimeconfig-feedstock
+==========================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-cloud-runtimeconfig-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/googleapis/python-runtimeconfig
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-cloud-runtimeconfig-feedstock/blob/main/LICENSE.txt)
 
 Summary: Google Cloud RuntimeConfig API client library
 
