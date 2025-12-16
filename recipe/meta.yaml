@@ -1,16 +1,16 @@
 {% set name = "google-cloud-runtimeconfig" %}
-{% set version = "0.34.0" %}
+{% set version = "0.36.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/google-cloud-runtimeconfig-{{ version }}.tar.gz
-  sha256: 872c6f4c28710860ba6238ef606a9a243be005bbdeec48f37cf10b97e2c1d83f
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: fa90c5c842e89414c97f3fd122835b18d1c2df4b722a167b0fa5e241328edadd
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
@@ -21,7 +21,7 @@ requirements:
     - setuptools
   run:
     - python >={{ python_min }}
-    - google-cloud-core >=1.4.4,<3.0dev
+    - google-cloud-core >=1.4.4,<3.0.0
 
 test:
   imports:
