@@ -47,8 +47,8 @@ about:
     The Google Cloud RuntimeConfig API enables developers to dynamically configure and expose variables through Google Cloud Platform. In addition, you can also set Watchers and Waiters that will watch for changes to your data and return based on certain conditions.
     See the [quick start guide](https://googleapis.dev/python/runtimeconfig/latest/index.html#quick-start).
 
-  homepage: https://github.com/googleapis/python-runtimeconfig
-  repository: https://github.com/googleapis/python-runtimeconfig
+  homepage: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-runtimeconfig
+  repository: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-runtimeconfig
   documentation: https://googleapis.dev/python/runtimeconfig/latest/index.html
 
 extra:
