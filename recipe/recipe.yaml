@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: google-cloud-runtimeconfig
-  version: 0.36.0
+  version: "0.36.1"
 
 package:
   name: ${{ name|lower }}
@@ -10,10 +10,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: fa90c5c842e89414c97f3fd122835b18d1c2df4b722a167b0fa5e241328edadd
+  sha256: ebef0de558a31c775fd3c8caa96dcd8aace05ed270afb24a74dbeb1261850c09
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
@@ -47,8 +47,8 @@ about:
     The Google Cloud RuntimeConfig API enables developers to dynamically configure and expose variables through Google Cloud Platform. In addition, you can also set Watchers and Waiters that will watch for changes to your data and return based on certain conditions.
     See the [quick start guide](https://googleapis.dev/python/runtimeconfig/latest/index.html#quick-start).
 
-  homepage: https://github.com/googleapis/python-runtimeconfig
-  repository: https://github.com/googleapis/python-runtimeconfig
+  homepage: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-runtimeconfig
+  repository: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-runtimeconfig
   documentation: https://googleapis.dev/python/runtimeconfig/latest/index.html
 
 extra:
