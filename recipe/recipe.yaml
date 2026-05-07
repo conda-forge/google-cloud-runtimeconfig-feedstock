@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: google-cloud-runtimeconfig
-  version: "0.36.1"
+  version: "0.37.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: ebef0de558a31c775fd3c8caa96dcd8aace05ed270afb24a74dbeb1261850c09
+  sha256: b4425a4dd8f201c7ef08e19515653abe839b86054cdc796e92c688605a3d3afc
 
 build:
   number: 0
@@ -32,12 +32,7 @@ tests:
         - google.cloud.client
         - google.cloud.runtimeconfig
       python_version: ${{ python_min }}.*
-  - requirements:
-      run:
-        - pip
-        - python ${{ python_min }}.*
-    script:
-      - pip check
+      pip_check: true
 
 about:
   license: Apache-2.0
