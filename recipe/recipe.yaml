@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: google-cloud-runtimeconfig
-  version: "0.37.1"
+  version: "0.37.2"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: a23ff74496213c25f0cbba384db35d9958d8bae39b78007d447155ed0201f9dc
+  sha256: 92ed1b9997342c874247386809e6b6d64f8a56f032eed1752b0f5621a481954b
 
 build:
   number: 0
